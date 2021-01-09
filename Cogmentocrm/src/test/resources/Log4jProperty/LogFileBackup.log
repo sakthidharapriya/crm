@@ -1,0 +1,77 @@
+2021-01-06 18:39:30,256 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 18:39:40,657 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 18:39:40,659 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 18:39:42,031 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 18:41:38,834 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 18:41:49,077 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 18:41:49,077 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 18:41:50,616 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 18:53:06,135 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 18:53:15,928 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 18:53:15,928 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 18:53:17,511 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 18:56:51,015 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 18:57:00,967 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 18:57:00,968 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 18:57:02,628 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 19:02:59,552 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 19:03:09,128 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 19:03:09,129 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 19:03:11,734 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 19:05:35,726 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 19:05:44,622 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 19:05:44,623 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 19:05:46,905 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 19:08:17,085 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 19:08:27,756 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 19:08:27,757 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 19:08:31,958 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 19:10:08,653 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 19:10:19,425 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 19:10:19,425 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 19:11:40,223 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-06 19:11:50,035 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-06 19:11:50,036 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-06 19:11:54,347 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-06 19:12:02,000 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 00:11:07,382 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 00:30:06,568 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 00:30:16,100 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 00:30:16,102 [main] INFO com.Baseclass.Library - navigate to calendar
+2021-01-07 00:34:05,069 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 00:34:16,002 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 00:34:16,003 [main] INFO com.Baseclass.Library - navigate to calendar
+2021-01-07 00:36:45,935 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 00:36:55,785 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 00:36:55,786 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 00:36:59,606 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:03:41,464 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:03:52,807 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:03:52,808 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:03:56,418 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:21:38,967 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:21:48,815 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:21:48,815 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:21:53,032 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:23:17,711 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:23:27,699 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:23:27,701 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:23:32,377 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:29:34,177 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:29:44,206 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:29:44,207 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:29:48,114 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:30:22,986 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:30:31,757 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:30:31,758 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:30:35,517 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:32:18,297 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:32:27,545 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:32:27,546 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 01:32:31,915 [main] INFO com.Baseclass.Library - Exiting the application and closing the browser
+2021-01-07 01:33:53,048 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 01:34:02,274 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 01:34:02,275 [main] INFO com.Baseclass.Library - Launched browser
+2021-01-07 20:44:50,959 [main] INFO com.Baseclass.Library - *******Starting with Browser Set Up*********
+2021-01-07 20:45:07,862 [main] INFO com.Baseclass.Library - Launched the cucumber Application
+2021-01-07 20:45:07,863 [main] INFO com.Baseclass.Library - Launched browser
