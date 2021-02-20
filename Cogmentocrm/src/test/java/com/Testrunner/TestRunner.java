@@ -17,7 +17,9 @@ import io.cucumber.junit.CucumberOptions;
 
 	
 			dryRun = false, 
-			features={"src/test/resources/feature/crmlogin.feature","src/test/resources/feature/crmcalendar.feature"}, 
+			//features= {"/src/test/resources/feature/crmlogin.feature"},
+			
+			features={"src/test/resources/feature"}, 
 			glue = {
 					"com.Stepdefinitions" }, 
 			monochrome = true, 

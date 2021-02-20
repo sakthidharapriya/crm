@@ -43,14 +43,6 @@
 							</a>
 						</li>
 												<li>
-							<a href="exception.html">
-							<span class="nav-icon">
-							<i class="fa fa-warning"></i>
-							</span>
-							<span class="nav-text">Exceptions</span>
-							</a>
-						</li>
-						<li>
 							<a href="dashboard.html">
 							<span class="nav-icon">
 							<i class="fa fa-dashboard"></i>
@@ -95,11 +87,11 @@
 									</a>
 									<div class="dropdown-menu pt-0 mt-2 animate fadeIn">
 										<a class="dropdown-item" href="#"><span class="tf" status="pass"><i class="fa fa-dot-circle-o text-success"></i>Pass</span></a>
-										<a class="dropdown-item" href="#"><span class="tf" status="fail"><i class="fa fa-dot-circle-o text-danger"></i>Fail</span></a>
 										
 										
 										
-										<a class="dropdown-item" href="#"><span class="tf" status="skip"><i class="fa fa-dot-circle-o text-blue"></i>Skip</span></a>
+										
+										
 										<div class="dropdown-divider"></div>
 										<a class="dropdown-item" href="#"><span class="tf" status="clear"><i class="fa fa-dot-circle-o text-warn"></i>Clear</span></a>
 									</div>
@@ -116,173 +108,11 @@
 								<div class="col-md-8 col-sm-12">
 									<div class="logger-content">
 										<h6 class="mb-3 ml-1">Test Logs</h6>
-											<div class="tsc" status="fail">
-											<div class="st fail test l0" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
-												<span class="tn">[To test the calendar data.] started</span>
-												
-											</div>
-											<div class="st fail test l1" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
-												<span class="tn">|---[To test the calendar funtionality of freecrm app.] started</span>
-												
-											</div>
-											<div class="st fail test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Given To navigate to calendar.] started</span>
-												
-												<div class="st fail">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">fail</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Given To navigate to calendar.]</span>
-													
-													<span class="td">threw an exception<br><textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
-	Implicit super constructor CrmLoginPage() is undefined for default constructor. Must define an explicit constructor
-	The constructor CrmCalendarPage(WebDriver) is undefined
-
-	at com.Stepdefinitions.CrmCalStepDef.<init>(CrmCalStepDef.java:19)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
-</textarea></span>
-												</div>
-											</div>
-											<div class="st skip test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To click calendar and click new.] started</span>
-												
-												<div class="st skip">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To click calendar and click new.]</span>
-													
-													<span class="td">Step skipped</span>
-												</div>
-											</div>
-											<div class="st skip test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To enter "<Title>".] started</span>
-												
-												<div class="st skip">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To enter "<Title>".]</span>
-													
-													<span class="td">Step skipped</span>
-												</div>
-											</div>
-											<div class="st skip test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then click the save button.] started</span>
-												
-												<div class="st skip">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then click the save button.]</span>
-													
-													<span class="td">Step skipped</span>
-												</div>
-											</div>
-											<div class="st skip test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[And To test screenshot.] started</span>
-												
-												<div class="st skip">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[And To test screenshot.]</span>
-													
-													<span class="td">Step skipped</span>
-												</div>
-											</div>
-											<div class="st skip test l2" 
-												tags=""
-												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
-												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Close the browser.] started</span>
-												
-												<div class="st skip">
-													<span class="tt">01.07.2021 20:44:50</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
-													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Close the browser.]</span>
-													
-													<span class="td">Step skipped</span>
-												</div>
-											</div>
-											</div>
 											<div class="tsc" status="pass">
 											<div class="st pass test l0" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:08</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">[To test the freecrm application.] started</span>
 												
@@ -290,7 +120,7 @@
 											<div class="st pass test l1" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:08</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[To test the login funtionality of freecrm application.] started</span>
 												
@@ -298,12 +128,12 @@
 											<div class="st pass test l2" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:44:50</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:08</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Given To enter URL and navigate to application.] started</span>
 												
 												<div class="st pass">
-													<span class="tt">01.07.2021 20:45:07</span>&nbsp;
+													<span class="tt">01.25.2021 12:28:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Given To enter URL and navigate to application.]</span>
 													
@@ -313,12 +143,12 @@
 											<div class="st pass test l2" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:45:07</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To enter "<username>" and "<password>".] started</span>
 												
 												<div class="st pass">
-													<span class="tt">01.07.2021 20:45:08</span>&nbsp;
+													<span class="tt">01.25.2021 12:28:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[When To enter "<username>" and "<password>".]</span>
 													
@@ -328,12 +158,12 @@
 											<div class="st pass test l2" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:45:08</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then click the submit button.] started</span>
 												
 												<div class="st pass">
-													<span class="tt">01.07.2021 20:45:11</span>&nbsp;
+													<span class="tt">01.25.2021 12:28:37</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then click the submit button.]</span>
 													
@@ -343,12 +173,12 @@
 											<div class="st pass test l2" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:45:11</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:37</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[And To test screenshot.] started</span>
 												
 												<div class="st pass">
-													<span class="tt">01.07.2021 20:45:11</span>&nbsp;
+													<span class="tt">01.25.2021 12:28:38</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[And To test screenshot.]</span>
 													
@@ -358,12 +188,12 @@
 											<div class="st pass test l2" 
 												tags=""
 												devices="">
-												<span class="tt">01.07.2021 20:45:11</span>&nbsp;
+												<span class="tt">01.25.2021 12:28:38</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Close the browser.] started</span>
 												
 												<div class="st pass">
-													<span class="tt">01.07.2021 20:45:11</span>&nbsp;
+													<span class="tt">01.25.2021 12:28:38</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Close the browser.]</span>
 													

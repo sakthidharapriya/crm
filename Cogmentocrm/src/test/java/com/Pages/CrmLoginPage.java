@@ -17,10 +17,11 @@ public class CrmLoginPage extends Library {
 	@FindBy(xpath="//*[@id=\'ui\']/div/div/form/div/div[3]")
 	WebElement Loginbutton;
 	
+
+	
 	public CrmLoginPage(WebDriver driver)  {
 		this.driver=driver;
-		PageFactory.initElements(driver,this);
-		
+		PageFactory.initElements(driver,this);		
 		
 }
 	public void login(String Username,String Password) {
@@ -30,7 +31,7 @@ public class CrmLoginPage extends Library {
 	public void click()
 	{
 		Loginbutton.click();
-		
+	
 	}
 
 }
